@@ -1,0 +1,154 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+/* background: #FF5F6D;  
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  
+background: linear-gradient(to right, #FFC371, #FF5F6D);  */
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url('Flower2.jpg');
+/* background-position: center; */
+/* background-position: fixed; */
+background-size: cover;
+/* background-repeat: none; */
+height: 100vh;
+
+
+
+color: white;
+
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Lily Script One', cursive; */
+font-family: 'Cherry Swash', cursive;
+
+}
+
+@media (max-width: 37.5em) {
+    .generator {
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px;
+    margin: 0;
+    }
+
+    div #quoteText {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    width: 100%;
+    }
+
+    #quote {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+
+}
+
+
+.generator {
+   
+    width: 80%;
+    margin: 50px auto;
+
+    /* border-top: 1px solid white;
+    border-bottom: 1px solid white; */
+
+    /* border-radius: 5px; */
+    padding: 30px;
+    
+}
+
+
+p {
+    font-size: 50px;
+}
+
+#quote {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#author {
+    text-align: right;
+    padding-right: 100px;
+    
+}
+
+#quoteText {
+    margin-bottom: 50px;
+    padding: 100px 50px;
+    border-top: 1px solid;
+    border-color: linear-gradient(rgba(255, 255, 255, 0.322), white, rgba(255, 255, 255, 0.322));
+    border-bottom: 1px solid white;
+}
+
+#functionBar {
+    text-align: center;
+    height: 50px;
+    
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    /* border: 1px solid white; */
+    
+    border: none;
+    /* border-radius: 5px; */
+    color: white;
+    background: none;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+    line-height: 1;
+    margin-right: 5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+button:hover, .fa-twitter:hover {
+    background-color: rgb(255, 255, 255);
+    color:  #FFC371;
+}
+
+.fa-twitter {
+    position: absolute;
+    font-size: 48px;
+    height: 50px;
+    
+    color: white;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+
+ 
+}
+
+.fa-quote-left{
+    font-size: 30px;
+    color: white;
+
+ 
+}
+
+.fa-quote-right {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    float: right;
+
+ 
+}
+
