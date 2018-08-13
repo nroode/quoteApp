@@ -11,7 +11,7 @@ function getQuote() {
     quoteUrl = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
     
     $.getJSON(quoteUrl, function (response) {
-
+        
        
         $('#quote').html(response.quoteText);
 
